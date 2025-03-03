@@ -10735,8 +10735,8 @@ h6,
   .nav-bar.container-md,
   .nav-bar.container-lg,
   .nav-bar.container-xl {
-    position: relative;
-    background: #84BEE3BF;
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
   }
 }
 
