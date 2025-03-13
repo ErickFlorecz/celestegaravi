@@ -575,6 +575,19 @@ mark,
   /* Si deseas agregar bordes redondeados a las imágenes */
 }
 
+.img-letras .col-sm-5 img {
+  width: 100%;
+  /* Hace que las imágenes ocupen todo el ancho de su contenedor */
+  height: 150px;
+  /* Establece una altura uniforme para todas las imágenes */
+  object-fit: cover;
+  /* Recorta y ajusta las imágenes para cubrir el área sin distorsionarlas */
+  object-position: center;
+  /* Centra las imágenes */
+  border-radius: 8px;
+  /* Si deseas agregar bordes redondeados a las imágenes */
+}
+
 /* Ajusta el texto y la imagen para que estén alineados */
 .img-container .row.align-items-center {
   display: flex;
@@ -4551,6 +4564,19 @@ input[type="button"].btn-block {
   .navbar-expand-sm>.container-xl {
     padding-right: 0;
     padding-left: 0;
+  }
+
+  .img-letras .col-sm-5 img {
+    width: 100%;
+    /* Hace que las imágenes ocupen todo el ancho de su contenedor */
+    height: 250px;
+    /* Establece una altura uniforme para todas las imágenes */
+    object-fit: cover;
+    /* Recorta y ajusta las imágenes para cubrir el área sin distorsionarlas */
+    object-position: center;
+    /* Centra las imágenes */
+    border-radius: 8px;
+    /* Si deseas agregar bordes redondeados a las imágenes */
   }
 }
 
